@@ -6,7 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "data:nature": "bun run scripts/fetch-nature.ts",
+    "data:apartments": "bun run scripts/fetch-apartments.ts",
+    "data:facing": "bun run scripts/calc-facing-batch.ts",
+    "data:geocode": "bun run scripts/geocode-apartments.ts",
+    "data:distances": "bun run scripts/calc-distances.ts",
+    "data:build": "bun run scripts/build-data.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.3.0",
