@@ -24,6 +24,7 @@ declare namespace naver {
       setPosition(latlng: LatLng): void;
       getPosition(): LatLng;
       setIcon(icon: string | ImageIcon | SymbolIcon | HtmlIcon): void;
+      setZIndex(zIndex: number): void;
       addListener(event: string, handler: (...args: unknown[]) => void): MapEventListener;
     }
 
